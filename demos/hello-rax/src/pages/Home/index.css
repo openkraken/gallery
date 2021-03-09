@@ -1,0 +1,18 @@
+.home {
+  margin-top: 200rpx;
+  align-items: center;
+}
+
+.title {
+  align-items: center;
+  font-size: 45rpx;
+  font-weight: bold;
+  margin: 20rpx 0;
+}
+
+.info {
+  align-items: center;
+  font-size: 36rpx;
+  margin: 8rpx 0;
+  color: #555;
+}

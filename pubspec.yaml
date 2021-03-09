@@ -24,10 +24,8 @@ dependencies:
   flutter:
     sdk: flutter
 
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
+  kraken:
+    path: ../alikraken/kraken
 
 dev_dependencies:
   flutter_test:
@@ -44,6 +42,19 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  assets:
+    - demos/gallery/build/kraken/index.js
+    - demos/hello-rax/build/kraken/index.js
+    - demos/anime/build/kraken/index.js
+    - demos/anime/banner.png
+    - demos/granule/build/kraken/index.js
+    - demos/granule/banner.png
+    - demos/dragable-list/build/kraken/index.js
+    - demos/dragable-list/banner.png
+    - demos/riddles/build/kraken/index.js
+    - demos/riddles/banner.png
+    - demos/todomvc/build/kraken/index.js
+    - demos/todomvc/banner.png
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

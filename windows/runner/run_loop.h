@@ -1,5 +1,5 @@
-#ifndef RUNNER_RUN_LOOP_H_
-#define RUNNER_RUN_LOOP_H_
+#ifndef RUN_LOOP_H_
+#define RUN_LOOP_H_
 
 #include <flutter/flutter_engine.h>
 
@@ -37,4 +37,4 @@ class RunLoop {
   std::set<flutter::FlutterEngine*> flutter_instances_;
 };
 
-#endif  // RUNNER_RUN_LOOP_H_
+#endif  // RUN_LOOP_H_

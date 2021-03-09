@@ -1,0 +1,30 @@
+.card {
+  border-radius: 10px;
+  box-shadow: 0 0 1px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.02);
+  background-color: white;
+  width: 700rpx;
+  overflow: hidden;
+  margin-top: 40rpx;
+}
+
+.banner {
+  width: 700rpx;
+  height: 350rpx;
+}
+
+.info {
+  margin: 30rpx;
+}
+
+.title {
+  color: #1a1a1a;
+  font-size: 42rpx;
+  line-height: 42rpx;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 32rpx;
+  margin-top: 8rpx;
+  color: #aaa;
+}

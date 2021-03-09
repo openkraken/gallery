@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "build-scripts build",
+    "start": "build-scripts start"
+  },
+  "dependencies": {
+    "driver-universal": "^3.1.2",
+    "rax": "^1.0.8",
+    "rax-document": "^0.1.1"
+  },
+  "devDependencies": {
+    "@alib/build-scripts": "^0.1.12",
+    "build-plugin-rax-app": "2.0.0"
+  }
+}

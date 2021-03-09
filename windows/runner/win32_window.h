@@ -1,7 +1,8 @@
-#ifndef RUNNER_WIN32_WINDOW_H_
-#define RUNNER_WIN32_WINDOW_H_
+#ifndef WIN32_WINDOW_H_
+#define WIN32_WINDOW_H_
 
-#include <windows.h>
+#include <Windows.h>
+#include <Windowsx.h>
 
 #include <functional>
 #include <memory>
@@ -95,4 +96,4 @@ class Win32Window {
   HWND child_content_ = nullptr;
 };
 
-#endif  // RUNNER_WIN32_WINDOW_H_
+#endif  // WIN32_WINDOW_H_

@@ -13,7 +13,7 @@
         </span>
       </div>
     </div>
-    <div :style="style.tr" v-for="entry in filteredHeroes" :key="entry">
+    <div :style="style.tr" v-for="(entry, index) in filteredHeroes" :key="index">
       <div v-for="key in columns" :key="key" :style="style.td">
         {{ entry[key] }}
       </div>

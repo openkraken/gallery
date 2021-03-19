@@ -145,10 +145,10 @@ packages:
   kraken:
     dependency: "direct main"
     description:
-      path: "../alikraken/kraken"
-      relative: true
-    source: path
-    version: "0.6.6-dev.6"
+      name: kraken
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.7.0"
   matcher:
     dependency: transitive
     description:

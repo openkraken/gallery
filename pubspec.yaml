@@ -24,8 +24,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  kraken:
-    path: ../alikraken/kraken
+  kraken: ^0.7.0
 
 dev_dependencies:
   flutter_test:

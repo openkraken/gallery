@@ -1,4 +1,6 @@
-# hello-vue
+# Hello Vue Demo
+
+## Getting Started
 
 1. Install dependencies
     ```shell

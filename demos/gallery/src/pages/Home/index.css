@@ -2,3 +2,11 @@
   align-items: center;
   padding-bottom: 40rpx;
 }
+
+.title {
+  color: #1a1a1a;
+  font-size: 42rpx;
+  line-height: 42rpx;
+  font-weight: bold;
+  margin: 30rpx 0 0 0;
+}

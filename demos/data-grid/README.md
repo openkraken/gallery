@@ -1,4 +1,6 @@
-# hello-vue
+# Data Grid Demo
+
+## Getting Started
 
 1. Install dependencies
     ```shell

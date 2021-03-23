@@ -3,7 +3,7 @@
     <img alt="Vue logo" src="//img.alicdn.com/imgextra/i3/O1CN01HmN4l21lpai7j2p3H_!!6000000004868-2-tps-200-200.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <div :style="style.info">More information about Vue.js</div>
-    <div :style="style.info">Visit https://cn.vuejs.org/</div>
+    <div :style="style.info">Visit https://vuejs.org/</div>
   </div>
 </template>
 

@@ -3,7 +3,7 @@
     <div :style="style.search">
       Search： <input name="query" v-model="searchQuery" />
     </div>
-    <demo-grid
+    <grid
       :heroes="gridData"
       :columns="gridColumns"
       :filter-key="searchQuery"
@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import demoGrid from './components/demoGrid'
+import Grid from './components/Grid'
 
 const style = {
   home: {
@@ -30,7 +30,7 @@ const style = {
 export default {
   name: 'App',
   components: {
-    demoGrid
+    Grid
   },
   data: function() { 
     return {

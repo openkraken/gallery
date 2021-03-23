@@ -41,6 +41,12 @@ flutter:
   uses-material-design: true
 
   assets:
+    - demos/hello-vue/dist/js/app.js
+    - demos/hello-vue/banner.png
+    - demos/hello-react/build/static/js/bundle.js
+    - demos/hello-react/banner.png
+    - demos/hello-rax/build/kraken/index.js
+    - demos/hello-rax/banner.png
     - demos/gallery/build/kraken/index.js
     - demos/hello-rax/build/kraken/index.js
     - demos/anime/build/kraken/index.js
@@ -53,8 +59,8 @@ flutter:
     - demos/riddles/banner.png
     - demos/todomvc/build/kraken/index.js
     - demos/todomvc/banner.png
-    - demos/grid-vue/dist/js/app.js
-    - demos/grid-vue/banner.png
+    - demos/data-grid/dist/js/app.js
+    - demos/data-grid/banner.png
     - demos/wallet/build/kraken/index.js
     - demos/wallet/banner.png
     - demos/calendar/build/kraken/index.js

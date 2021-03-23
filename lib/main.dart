@@ -34,6 +34,7 @@ class MainScreen extends StatelessWidget {
       viewportWidth: window.physicalSize.width / window.devicePixelRatio,
       viewportHeight: window.physicalSize.height / window.devicePixelRatio,
       bundlePath: 'demos/gallery/build/kraken/index.js',
+      // bundlePath: 'demos/hello-react/build/static/js/bundle.js',
       navigationDelegate: navigationDelegate,
     );
   }

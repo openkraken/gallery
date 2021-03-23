@@ -70,7 +70,7 @@ const style = {
 }
 
 export default {
-  name: 'demo',
+  name: 'Grid',
   props: {
     heroes: Array,
     columns: Array,

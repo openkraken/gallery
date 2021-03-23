@@ -23,9 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  kraken:
-    path: ../kraken/kraken
+  kraken: ^0.7.0
 
 dev_dependencies:
   flutter_test:
@@ -55,6 +53,8 @@ flutter:
     - demos/riddles/banner.png
     - demos/todomvc/build/kraken/index.js
     - demos/todomvc/banner.png
+    - demos/grid-vue/dist/js/app.js
+    - demos/grid-vue/banner.png
     - demos/wallet/build/kraken/index.js
     - demos/wallet/banner.png
     - demos/calendar/build/kraken/index.js

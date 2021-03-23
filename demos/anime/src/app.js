@@ -66,15 +66,6 @@ function createDOM() {
       backgroundColor: '#FF4B4B'
     });
 
-    if (global.KRAKEN_TEST) {
-      setElementStyle(barEl, {
-        transform: 'scaleY(' + (i * 0.5) + ')'
-      });
-      setElementStyle(dotEl, {
-        transform: 'translateY(' + ((i - numberOfBars / 2) * 1) + 'px)'
-      });
-    }
-
     barsWrapper.appendChild(barEl);
     dotsWrapper.appendChild(dotEl);
     bars.push(barEl);
@@ -110,6 +101,4 @@ function play() {
 
 }
 createDOM();
-if (!global.KRAKEN_TEST) {
-  play();
-}
+play();

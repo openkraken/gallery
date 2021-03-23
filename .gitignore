@@ -33,7 +33,7 @@ build/
 
 # Web related
 lib/generated_plugin_registrant.dart
-node_modules
+node_modules/
 
 # Symbolication related
 app.*.symbols

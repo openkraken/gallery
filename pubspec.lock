@@ -145,9 +145,9 @@ packages:
   kraken:
     dependency: "direct main"
     description:
-      name: kraken
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "../kraken/kraken"
+      relative: true
+    source: path
     version: "0.7.0"
   matcher:
     dependency: transitive

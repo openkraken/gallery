@@ -4,9 +4,14 @@
 }
 
 .title {
-  color: #1a1a1a;
-  font-size: 42rpx;
-  line-height: 42rpx;
-  font-weight: bold;
-  margin: 30rpx 0 0 0;
+  color: white;
+  font-size: 46rpx;
+  line-height: 46rpx;
+  font-weight: 500;
+  margin: 30rpx 0 0 30rpx;
+}
+
+.icon {
+  width: 40rpx;
+  height: 40rpx;
 }

@@ -23,7 +23,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  kraken: ^0.7.0
+  kraken:
+    path: ^0.7.0
 
 dev_dependencies:
   flutter_test:
@@ -41,6 +42,8 @@ flutter:
   uses-material-design: true
 
   assets:
+    - demos/gallery/icon/demo.png
+    - demos/gallery/icon/framework.png
     - demos/hello-vue/dist/js/app.js
     - demos/hello-vue/banner.png
     - demos/hello-react/build/static/js/bundle.js

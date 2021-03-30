@@ -1,10 +1,14 @@
 .card {
   border-radius: 10px;
-  box-shadow: 0 0 1px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.02);
-  background-color: white;
+  background-color: rgb(47, 41, 58);
   width: 700rpx;
   overflow: hidden;
   margin-top: 40rpx;
+}
+
+.hover-card {
+  width: 500rpx;
+  margin-right: 30rpx;
 }
 
 .banner {
@@ -16,15 +20,37 @@
   margin: 30rpx;
 }
 
+.hover-banner {
+  width: 500rpx;
+  height: 250rpx;
+}
+
+.hover-info {
+  position: absolute;
+  top: 170rpx;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(0,0,0,.3);
+  height: 80rpx;
+}
+
 .title {
-  color: #1a1a1a;
-  font-size: 42rpx;
+  color: white;
+  font-size: 38rpx;
   line-height: 42rpx;
-  font-weight: bold;
+  font-weight: 500;
+}
+
+.hover-title {
+  color: #fff;
+  font-size: 38rpx;
+  line-height: 80rpx;
+  font-weight: 500;
 }
 
 .desc {
-  font-size: 32rpx;
+  font-size: 30rpx;
   margin-top: 8rpx;
   color: #aaa;
 }

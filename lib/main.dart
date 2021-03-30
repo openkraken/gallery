@@ -20,7 +20,8 @@ class GalleryApp extends StatelessWidget {
 class MainScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    
+    final MediaQueryData queryData = MediaQuery.of(context);
+    final Size viewportSize = queryData.size;
     KrakenNavigationDelegate navigationDelegate = KrakenNavigationDelegate();
     navigationDelegate.setDecisionHandler((KrakenNavigationAction action) async {
       Navigator.push(context, MaterialPageRoute(builder: (_) {
@@ -31,10 +32,9 @@ class MainScreen extends StatelessWidget {
     });
 
     return Kraken(
-      viewportWidth: window.physicalSize.width / window.devicePixelRatio,
-      viewportHeight: window.physicalSize.height / window.devicePixelRatio,
+      viewportWidth: viewportSize.width,
+      viewportHeight: viewportSize.height,
       bundlePath: 'demos/gallery/build/kraken/index.js',
-      // bundlePath: 'demos/hello-react/build/static/js/bundle.js',
       navigationDelegate: navigationDelegate,
     );
   }

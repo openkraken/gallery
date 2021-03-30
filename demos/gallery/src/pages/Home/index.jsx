@@ -1,18 +1,25 @@
 import { createElement } from 'rax';
 import View from 'rax-view';
-
+import ScrollView from 'rax-scrollview';
+import Card from '../../components/Card';
 import './index.css';
 
-import Card from '../../components/Card';
-
 export default function Home() {
-  return (
+  return <>
+    <p className="title"><img className="icon" src="demos/gallery/icon/framework.png" /> Framework</p>
+    <ScrollView
+      style={{
+        height: '290rpx',
+        margin: '0 30rpx'
+      }}
+      horizontal={true}
+    >
+      <Card bundle="demos/hello-vue/dist/js/app.js" banner="demos/hello-vue/banner.png" title="Vue" />
+      <Card bundle="demos/hello-react/build/static/js/bundle.js" banner="demos/hello-react/banner.png" title="React" />
+      <Card bundle="demos/hello-rax/build/kraken/index.js" banner="demos/hello-rax/banner.png" title="Rax" />
+    </ScrollView>
+    <p className="title"><img className="icon" src="demos/gallery/icon/demo.png" />  Demo</p>
     <View className="home">
-      <p className="title">Framworks</p>
-      <Card bundle="demos/hello-vue/dist/js/app.js" banner="demos/hello-vue/banner.png" title="Vue" desc="A hello demo built with Vue.js" />
-      <Card bundle="demos/hello-react/build/static/js/bundle.js" banner="demos/hello-react/banner.png" title="React" desc="A hello demo built with React.js" />
-      <Card bundle="demos/hello-rax/build/kraken/index.js" banner="demos/hello-rax/banner.png" title="Rax" desc="A hello demo built with Rax.js" />
-      <p className="title">Gallery</p>
       <Card bundle="demos/anime/build/kraken/index.js" banner="demos/anime/banner.png" title="Anime" desc="A animation demo built with anime.js" />
       <Card bundle="demos/calendar/build/kraken/index.js" banner="demos/calendar/banner.png" title="Calendar" desc="Calendar component with kraken" />
       <Card bundle="demos/granule/build/kraken/index.js" banner="demos/granule/banner.png" title="Granule" desc="Granule effect built with CSS transform" />
@@ -23,9 +30,5 @@ export default function Home() {
       <Card bundle="demos/wallet/build/kraken/index.js" banner="demos/wallet/banner.png" title="Wallet" desc="Wallet application with kraken" />
       <Card bundle="demos/order/build/kraken/index.js" banner="demos/order/banner.png" title="Order" desc="Order page with kraken" />
     </View>
-
-
-
-
-   )
+  </>
 }

@@ -11,8 +11,11 @@ function build(projectName) {
     cwd: contextPath,
   };
   try {
-    spawnSync('npm', ['install'], spawnOptions);
-    spawnSync('npm', ['run', 'build'], spawnOptions);
+    const cmd = process.platform === "win32" ? "npm.cmd" : "npm"
+    const installOutput = spawnSync(cmd, ['install'], spawnOptions);
+    console.log(installOutput)
+    const buildOutput = spawnSync(cmd, ['run', 'build'], spawnOptions);
+    console.log(buildOutput)
     return Promise.resolve();
   } catch (err) {
     return Promise.reject(err);

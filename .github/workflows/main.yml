@@ -1,0 +1,21 @@
+name: build gallery
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: node scripts/build_demos.js
+      
+      - uses: subosito/flutter-action@v1
+      - run: flutter pub get
+      - run: flutter build apk

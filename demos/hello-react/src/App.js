@@ -3,7 +3,8 @@ const styles = {
     textAlign: 'center'
   },
   AppLogo: {
-    height: '40vmin',
+    height: '128px',
+    marginBottom: '32px',
     pointerEvents: 'none'
   },
   AppHeader: {
@@ -13,11 +14,13 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    fontSize: '32px',
-    color: 'white'
+    fontSize: '18px',
+    color: 'white',
+    lineHeight: '32px',
+    fontWeight: '200',
   },
   AppLink: {
-    color: '#61dafb'
+    color: '#61dafb',
   }
 };
 

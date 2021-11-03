@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   height: 20%;
+  padding-top: 'env(safe-area-inset-top)',
 }
 
 .order-summary {

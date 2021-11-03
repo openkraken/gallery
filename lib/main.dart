@@ -31,11 +31,13 @@ class MainScreen extends StatelessWidget {
       return KrakenNavigationActionPolicy.allow;
     });
 
-    return Kraken(
-      viewportWidth: viewportSize.width,
-      viewportHeight: viewportSize.height,
-      bundlePath: 'demos/gallery/build/kraken/index.js',
-      navigationDelegate: navigationDelegate,
+    return SafeArea(
+      child: Kraken(
+        viewportWidth: viewportSize.width - queryData.viewPadding.horizontal,
+        viewportHeight: viewportSize.height - queryData.viewPadding.vertical,
+        bundlePath: 'demos/gallery/build/kraken/index.js',
+        navigationDelegate: navigationDelegate,
+      ),
     );
   }
 }
@@ -45,7 +47,7 @@ class DetailScreen extends StatelessWidget {
   DetailScreen(KrakenNavigationAction this.action);
   @override
   Widget build(BuildContext context) {
-
+    // Fullscreen kraken view.
     return Scaffold(
       body: Kraken(
         viewportWidth: window.physicalSize.width / window.devicePixelRatio,

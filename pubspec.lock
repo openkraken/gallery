@@ -131,10 +131,10 @@ packages:
   kraken:
     dependency: "direct main"
     description:
-      path: "../kraken/kraken"
-      relative: true
-    source: path
-    version: "0.8.3+1"
+      name: kraken
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.9.0-rc.5"
   matcher:
     dependency: transitive
     description:
@@ -301,20 +301,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.0"
-  vibration:
-    dependency: transitive
-    description:
-      name: vibration
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.7.4-nullsafety.0"
-  vibration_web:
-    dependency: transitive
-    description:
-      name: vibration_web
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.6.3-nullsafety.0"
   win32:
     dependency: transitive
     description:
@@ -331,4 +317,4 @@ packages:
     version: "0.2.0"
 sdks:
   dart: ">=2.13.0 <3.0.0"
-  flutter: ">=2.0.0"
+  flutter: ">=2.2.0"

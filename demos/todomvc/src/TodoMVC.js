@@ -8,6 +8,7 @@ const styles = {
     fontWeight: 100,
     fontSize: '100rpx',
     color: '#f9afaf',
+    marginTop: 'env(safe-area-inset-top)',
   },
   todoList: {
     margin: '0 30rpx 30rpx 30rpx',

@@ -32,7 +32,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   connectivity_macos: 5dae6ee11d320fac7c05f0d08bd08fc32b5514d9
   FlutterMacOS: 57701585bf7de1b3fc2bb61f6378d73bbdea8424
-  kraken: 1b6c815708f6468c9301b7c26e357d4f93af6cb0
+  kraken: 8e9fba53cc6f77c50abf1c96d835c25cd09d3d66
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   shared_preferences_macos: 480ce071d0666e37cef23fe6c702293a3d21799e
 

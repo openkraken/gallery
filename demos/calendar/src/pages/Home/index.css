@@ -1,11 +1,11 @@
 .home {
-  margin-top: 30px;
+  margin-top: env(safe-area-inset-top);
 }
 
 .title {
   font-size: 30px;
   font-weight: 600;
   color: grey;
-  margin-bottom: 30px;
+  margin: 30px 0;
   text-align: center;
 }

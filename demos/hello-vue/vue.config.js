@@ -6,6 +6,6 @@ module.exports = {
   },
   filenameHashing: false,
   devServer: {
-    hot: false,
+    disableHostCheck: true,
   }
 }

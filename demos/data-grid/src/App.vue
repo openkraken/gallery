@@ -18,7 +18,8 @@ const style = {
   home: {
     fontFamily: 'Helvetica Neue, Arial, sans-serif',
     fontSize: '14px',
-    color: '#444'
+    color: '#444',
+    marginTop: 'env(safe-area-inset-top)',
   },
   search: {
     lineHeight: '30px',

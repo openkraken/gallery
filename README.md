@@ -2,7 +2,7 @@
 
 ## ScreenShot
 
-<img src="https://user-images.githubusercontent.com/677114/113019030-bf531a00-91b3-11eb-8656-4016761a144e.jpg" style="max-width: 480px" />
+<img src="https://user-images.githubusercontent.com/677114/113019030-bf531a00-91b3-11eb-8656-4016761a144e.jpg" width="380" />
 
 ## Release
 

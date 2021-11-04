@@ -23,7 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  kraken: ^0.9.0-rc.5
+  kraken: ^0.9.0
 
 dev_dependencies:
   flutter_test:

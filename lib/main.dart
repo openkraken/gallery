@@ -22,14 +22,14 @@ class MainScreen extends StatelessWidget {
     final MediaQueryData queryData = MediaQuery.of(context);
     final Size viewportSize = queryData.size;
     KrakenNavigationDelegate navigationDelegate = KrakenNavigationDelegate();
-    // navigationDelegate
-    //     .setDecisionHandler((KrakenNavigationAction action) async {
-    //   Navigator.push(context, MaterialPageRoute(builder: (_) {
-    //     return DetailScreen(action);
-    //   }));
+    navigationDelegate
+        .setDecisionHandler((KrakenNavigationAction action) async {
+      Navigator.push(context, MaterialPageRoute(builder: (_) {
+        return DetailScreen(action);
+      }));
 
-    //   return KrakenNavigationActionPolicy.allow;
-    // });
+      return KrakenNavigationActionPolicy.allow;
+    });
 
     return SafeArea(
       child: Kraken(
@@ -50,11 +50,11 @@ class DetailScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     // Fullscreen kraken view.
     return Scaffold(
-      // body: Kraken(
-      //   viewportWidth: window.physicalSize.width / window.devicePixelRatio,
-      //   viewportHeight: window.physicalSize.height / window.devicePixelRatio,
-      //   bundle: KrakenBundle.fromUrl(action.target),
-      // ),
+      body: Kraken(
+        viewportWidth: window.physicalSize.width / window.devicePixelRatio,
+        viewportHeight: window.physicalSize.height / window.devicePixelRatio,
+        bundle: KrakenBundle.fromUrl(action.target),
+      ),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () {
           Navigator.pop(context);

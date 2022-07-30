@@ -28,7 +28,7 @@ class MainScreen extends StatelessWidget {
         return DetailScreen(action);
       }));
 
-      return KrakenNavigationActionPolicy.allow;
+      return KrakenNavigationActionPolicy.cancel;
     });
 
     return SafeArea(
